@@ -61,6 +61,9 @@ main {
   color: black;
   color: rgb(190, 185, 185);
 }
+.desktopP {
+  display: none;
+}
 .v2 {
   border-left: 1px solid white;
   height: 50px;
