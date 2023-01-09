@@ -33,10 +33,10 @@
 #dialogs {
   display: flex;
 }
-.close {
+.close, .closeSecond, .closeThird, .closeFourth {
   transition-duration: 1000ms;
 }
-.close:hover {
+.close:hover, .closeSecond:hover, .closeThird:hover, .closeFourth:hover {
   transform: rotate(90deg);
 }
 .modalBottom > img {
