@@ -1,0 +1,41 @@
+#introModal {
+  background-image: url("/task/resources/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 400px;
+
+}
+#introModal::backdrop {
+  background: black;
+  opacity: 0.5;
+}
+.boxContent {
+  margin: 20px 20px 20px 20px;
+}
+.modalTop {
+  display: flex;
+  justify-content: space-between;
+}
+.modalTop > h1 {
+  color: white;
+  font-size: 30px;
+  border-bottom: 2px solid white;
+  margin-bottom: 5px;
+}
+.modalBottom > p {
+  color: white;
+  text-align: justify;
+  line-height: 1.6;
+}
+#dialogs {
+  display: flex;
+}
+.close {
+  transition-duration: 1000ms;
+}
+.close:hover {
+  transform: rotate(90deg);
+}
