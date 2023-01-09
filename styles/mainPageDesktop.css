@@ -27,6 +27,7 @@
     font-size: 11px;
   }
   .introButton:hover, .workButton:hover, .aboutButton:hover, .contactButton:hover {
-    background-color:rgba(114, 113, 113, 0.8)
+    background-color:rgba(114, 113, 113, 0.8);
+    cursor: pointer;
   }
 }
