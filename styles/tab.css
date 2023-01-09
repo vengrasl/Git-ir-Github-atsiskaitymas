@@ -1,4 +1,4 @@
-#introModal {
+#introModal, #workModal, #aboutModal, #contactModal {
   background-image: url("/task/resources/bg.jpg");
   background-position: center;
   background-size: cover;
@@ -38,4 +38,10 @@
 }
 .close:hover {
   transform: rotate(90deg);
+}
+.modalBottom > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
