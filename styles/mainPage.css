@@ -1,0 +1,95 @@
+body {
+  background-image: url("/task/resources/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  isolation: isolate;
+}
+body::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: black;
+  opacity: .5;
+}
+main {
+  position: relative;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+.gemDiv {
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.v1 {
+  border-left: 1px solid white;
+  height: 50px;
+}
+.metaverse {
+  width: 95%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.metaverse > h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  letter-spacing: 3px;
+}
+.metaverse > p {
+  color: rgb(190, 185, 185);
+  font-size: 13px;
+  line-height: 1.6;
+  text-align: justify;
+  word-spacing: 3px;
+}
+.metaverse > p > a {
+  text-decoration: underline dotted white;
+  color: black;
+  color: rgb(190, 185, 185);
+}
+.desktopP {
+  display: none;
+}
+.v2 {
+  border-left: 1px solid white;
+  height: 50px;
+}
+.metaverse > p > a:active {
+  color: rgb(69, 140, 235);
+  text-decoration: underline dotted rgb(38, 143, 204);
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+.introButton, .workButton, .aboutButton, .contactButton {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 1px solid white;
+  overflow: hidden;
+  outline: none;
+  height: 35px;
+  color: rgb(190, 185, 185);
+  font-size: 10px;
+  letter-spacing: 3px;
+}
+.introButton:active, .workButton:active, .aboutButton:active, .contactButton:active {
+  background-color:rgba(114, 113, 113, 0.8);
+  cursor: pointer;
+}
