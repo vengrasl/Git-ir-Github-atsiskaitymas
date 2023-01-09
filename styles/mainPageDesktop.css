@@ -1,0 +1,32 @@
+@media (min-width: 501px){
+  .mobileP {
+    display: none;
+  }
+  .metaverse {
+    font-size: 30px;
+  }
+  .desktopP {
+    text-align: center !important;
+    color: black;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+  }
+  .metaverse > .desktopP > a:hover {
+    color: rgb(69, 140, 235);
+    text-decoration: underline dotted rgb(38, 143, 204);
+    cursor: pointer;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+  }
+  .introButton, .workButton, .aboutButton, .contactButton {
+    width: 130px;
+    height: 40px;
+    font-size: 11px;
+  }
+  .introButton:hover, .workButton:hover, .aboutButton:hover, .contactButton:hover {
+    background-color:rgba(114, 113, 113, 0.8)
+  }
+}
